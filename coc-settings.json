@@ -1,0 +1,27 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "graphql", "html", "yaml",  "json", "python"],
+
+  // python config
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+
+  "snippets.ultisnips.directories":
+  [
+    "UltiSnips",
+    "~/.config/nvim/utils/snips"
+  ],
+  "python.autoComplete.extraPaths": [
+    "${env:SPARK_HOME}/python",
+    "${env:SPARK_HOME}/python/pyspark"
+  ],
+
+  // explorer
+  "explorer.width": 30,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.previewAction.onHover": false,
+  "explorer.keyMappings.global": {
+    "<cr>": ["expandable?", "expand", "open"],
+    "v": "open:vsplit"
+  }
+
+}
