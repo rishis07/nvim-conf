@@ -42,3 +42,11 @@ nnoremap <C-l> <C-w>l
 
 nnoremap <Leader>o o<Esc>^Da
 nnoremap <Leader>O O<Esc>^Da
+
+" FZF
+nmap <Leader>r :Rg<CR>
+nmap <Leader>t :FZF<CR>
+
+" Buffers
+nmap <Leader>v :vsp<CR>
+nmap <Leader>h :sp<CR>
