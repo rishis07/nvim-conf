@@ -1,27 +1,34 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "graphql", "html", "yaml",  "json", "python"],
-
+  "coc.preferences.formatOnSave": true,
+  "languageserver": {
+    "odin": {
+      "command": "ols",
+      "filetypes": ["odin"],
+      "rootPatterns": ["ols.json", ".git"]
+    }
+  },
   // python config
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": true,
-
-  "snippets.ultisnips.directories":
-  [
+  "snippets.ultisnips.directories": [
     "UltiSnips",
     "~/.config/nvim/utils/snips"
   ],
-  "python.autoComplete.extraPaths": [
+  "python.analysis.extraPaths": [
     "${env:SPARK_HOME}/python",
     "${env:SPARK_HOME}/python/pyspark"
   ],
-
   // explorer
   "explorer.width": 30,
   "explorer.icon.enableNerdfont": true,
   "explorer.previewAction.onHover": false,
   "explorer.keyMappings.global": {
-    "<cr>": ["expandable?", "expand", "open"],
+    "<cr>": [
+      "expandable?",
+      "expand",
+      "open"
+    ],
     "v": "open:vsplit"
-  }
-
+  },
+  "snippets.ultisnips.pythonPrompt": false
 }

@@ -48,5 +48,5 @@ nmap <Leader>r :Rg<CR>
 nmap <Leader>t :FZF<CR>
 
 " Buffers
-nmap <Leader>v :vsp<CR>
-nmap <Leader>h :sp<CR>
+nmap <Leader>v :vsplit<CR>
+nmap <Leader>h :split<CR>

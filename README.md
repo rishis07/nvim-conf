@@ -12,6 +12,25 @@ brew install neovim
 
 Copy this repo into ~/.config/nvim
 
+## Create a virtual env
+```
+python3 -m venv ~/.venvs/neovim
+```
+### Activate the env
+```
+source ~/.venvs/neovim/bin/activate
+```
+
+### Install pynvim
+```
+pip install pynvim
+```
+
+### tell nvim to use the env
+```
+
+```
+
 ## Install py support
 pip3 install pynvim
 

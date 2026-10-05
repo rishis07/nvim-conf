@@ -36,5 +36,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/gv.vim'
     " Snippets
     Plug 'honza/vim-snippets'
+    " Copilot
+    Plug 'github/copilot.vim'
 
 call plug#end()
